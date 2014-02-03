@@ -1112,7 +1112,7 @@ Before we finish this chapter on basic Git, a few little tips and tricks may mak
 
 ### Auto-Completion ###
 
-If you use the Bash shell, Git comes with a nice auto-completion script you can enable. Download it directly from the Git source code at https://github.com/git/git/blob/master/contrib/completion/git-completion.bash . Copy this file to your home directory, and add this to your `.bashrc` file:
+If you use the Bash shell, Git comes with a nice auto-completion script you can enable. Download it directly from the Git source code at https://github.com/git/git/blob/master/contrib/completion/git-completion.bash . Copy this file to your home directory, and add this to your `~/.bashrc` file or `~/.profile` file (if you use Mac OS X):
 
 	source ~/git-completion.bash
 
